@@ -263,3 +263,8 @@ ERRORS:
 - maybe init the project with uv directly and add the modifications after that would be better (uv init + than use the outputs)
 - after i init the project myself i could run the commands above and now i am sync and finished with the first TASK
 
+## TASK 2
+was success but cause i already have a README.md file at some part of the requirements were already there it case small problems to it.
+
+ERRORS:
+- it used classic python and not UV (I think the main problem is that uv is still quite new and most of the training codes use the classical solutions and that is soo strong that the model easily change back to it)
