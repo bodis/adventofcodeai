@@ -1,3 +1,46 @@
+# Advent of Code Automation Tool
+
+This project provides an automated solution for solving Advent of Code puzzles. It handles:
+- Authentication with Advent of Code
+- Puzzle discovery and data fetching
+- Input parsing and solution generation
+- Answer submission and verification
+
+## Environment Setup
+
+1. Ensure Python 3.10+ is installed
+2. Create and activate a virtual environment:
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows use: venv\Scripts\activate
+   ```
+3. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+4. Configure your session cookie in `config.json`
+
+## For Contributors
+
+### Running the Application
+1. Activate the virtual environment
+2. Run the main script:
+   ```bash
+   python main.py
+   ```
+
+### Testing
+To run tests:
+```bash
+pytest tests/
+```
+
+### Development Guidelines
+- Follow PEP 8 style guidelines
+- Use type hints where appropriate
+- Write tests for new features
+- Document any new functionality
+
 # **Short Summary and Goal**
 
 We want an end-to-end solution that:
