@@ -8,15 +8,15 @@ This project provides an automated solution for solving Advent of Code puzzles. 
 
 ## Environment Setup
 
-1. Ensure Python 3.10+ is installed
+1. Ensure Python 3.12+ and UV are installed
 2. Create and activate a virtual environment:
    ```bash
-   python -m venv venv
-   source venv/bin/activate  # On Windows use: venv\Scripts\activate
+   uv init
+   source .venv/bin/activate  # On Windows use: venv\Scripts\activate
    ```
 3. Install dependencies:
    ```bash
-   pip install -r requirements.txt
+   uv pip install -r requirements.in
    ```
 4. Configure your session cookie in `config.json`
 
@@ -26,14 +26,8 @@ This project provides an automated solution for solving Advent of Code puzzles. 
 1. Activate the virtual environment
 2. Run the main script:
    ```bash
-   python main.py
+   uv run main.py
    ```
-
-### Testing
-To run tests:
-```bash
-pytest tests/
-```
 
 ### Development Guidelines
 - Follow PEP 8 style guidelines
