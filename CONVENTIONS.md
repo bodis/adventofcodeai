@@ -1,0 +1,3 @@
+- use UV as Python package and project manager
+- work always in a project specific python virtual environment venv
+- use a requirements file for collecting every project dependency
