@@ -248,3 +248,18 @@ After I have started the Aider with the command i provided above i get into the 
 
 Now I will start adding the new tasks to it...
 
+## TASK 1
+was success but have to solve some issues
+- have to modify the toml file to be sync with my account (OK)
+- i updated the toml python and uv version (python 3.12 and uv 0.5.24) (OK)
+- i updated my UV (was not necessary but i felt like i should) (OK)
+- i have to deleted the lockfile part from the toml file cause it cannot be parsed (WARN)
+
+ERRORS:
+- it said i have to do this but it doesn't created the venv for me so i have to created it myself with uv
+1. Activate the virtual environment: `source .venv/bin/activate`
+2. Install any dependencies: `uv pip install -r requirements.in`
+3. Make initial commit: `git add . && git commit -m "Initial project setup"`
+- maybe init the project with uv directly and add the modifications after that would be better (uv init + than use the outputs)
+- after i init the project myself i could run the commands above and now i am sync and finished with the first TASK
+
